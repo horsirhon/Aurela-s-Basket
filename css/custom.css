@@ -35,8 +35,29 @@ nav.navbar {
 .food-item-wrap {
  padding: 0.5rem;
 }
+.footer {
+    height: fit-content
+}
+.footer-logo {
+    height: 7em;
+}
+.footer-logo-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: -2em  0em 2em 0em;
+}
 @media (min-width: 991px){
     .nav-logo{
         left: 5vw;
+    }
+    .footer-logo {
+        height: 7em;
+    }
+    .footer-logo-block {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: -2em  0em 2em 0em;
     }
 }
