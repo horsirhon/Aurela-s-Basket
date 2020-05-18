@@ -34,6 +34,10 @@ nav.navbar {
 }
 .food-item-wrap {
  padding: 0.5rem;
+ height: 50rem;
+}
+div.special-item {
+    height: 25em
 }
 .footer {
     height: fit-content
