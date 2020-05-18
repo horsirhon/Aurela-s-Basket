@@ -47,6 +47,14 @@ nav.navbar {
     align-items: center;
     margin: -2em  0em 2em 0em;
 }
+.food-item-list {
+    
+    padding: 1em;
+}
+.food-item-list li {
+    border: none;
+    margin-bottom: .5em;
+}
 @media (min-width: 991px){
     .nav-logo{
         left: 5vw;
