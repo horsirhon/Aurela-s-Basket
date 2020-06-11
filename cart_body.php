@@ -61,7 +61,7 @@ $count = mysqli_num_rows($run_cart);
 
 <th>Unit Price</th>
 
-<th>Size</th>
+<th></th>
 
 <th colspan="1">Delete</th>
 

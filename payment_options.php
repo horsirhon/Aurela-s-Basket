@@ -12,25 +12,19 @@ $row_customer = mysqli_fetch_array($run_customer);
 
 $customer_id = $row_customer['customer_id'];
 
-
+$pro_price = $row_cart['p_price'];
+$product_title = $row_products['product_title'];
+$pro_qty = $row_cart['qty'];
 ?>
 
 <h1 class="text-center">Payment Options For You</h1>
 
 <p class="lead text-center">
 
-<a href="order.php?c_id=<?php echo $customer_id; ?>">Pay Off line</a>
+<a href="order.php?c_id=<?php echo $customer_id; ?>">Pay Offline</a>
 
 </p>
 
-<center><!-- center Starts -->
-
-  <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-  <input type="hidden" name="cmd" value="_s-xclick">
-  <input type="hidden" name="hosted_button_id" value="9PWJZYVQH8KGU">
-  <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynow_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-  <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-  </form>
 
 
 <?php
@@ -43,6 +37,13 @@ $ip_add = getRealUserIp();
 $get_cart = "select * from cart where ip_add='$ip_add'";
 
 $run_cart = mysqli_query($con,$get_cart);
+$pro_id = "";
+
+$pro_qty = "";
+
+$pro_price = "";
+
+$product_title = "";
 
 while($row_cart = mysqli_fetch_array($run_cart)){
 
@@ -63,20 +64,18 @@ $product_title = $row_products['product_title'];
 $i++;
 
 ?>
+<h1 class="text-center">Pay Now</h1>
 
+<form class="Pay-btn">
+<a class="flwpug_getpaid" data-PBFPubKey="FLWPUBK_TEST-fd15425643bbf0f6298c5a4c154c6d3b-X" data-txref="rave-checkout-1500826869" data-amount="<?php echo $pro_price;?>" data-customer_email="user@aureliasbaskets.com" data-currency="NGN" data-pay_button_text="Pay With Card Now" data-country="NG" data-custom_title="<?php echo $customer_id; ?>" data-custom_description="<?php echo $product_title; ?>" data-redirect_url="" data-custom_logo="" data-payment_method="both"></a>	
 
-<input type="hidden" name="item_name_<?php echo $i; ?>" value="<?php echo $product_title; ?>" >
-
-<input type="hidden" name="item_number_<?php echo $i; ?>" value="<?php echo $i; ?>" >
-
-<input type="hidden" name="amount_<?php echo $i; ?>" value="<?php echo $pro_price; ?>" >
-
-<input type="hidden" name="quantity_<?php echo $i; ?>" value="<?php echo $pro_qty; ?>" >
+<script type="text/javascript" src="https://api.ravepay.co/flwv3-pug/getpaidx/api/flwpbf-inline.js"></script>
+  </form>
 
 
 <?php } ?>
 
-<input type="image" name="submit" width="500" height="270" src="images/paypal.png" >
+
 
 
 </form><!-- form Ends -->

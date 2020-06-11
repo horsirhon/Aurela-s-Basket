@@ -65,7 +65,7 @@ if(!isset($_SESSION['customer_email'])){
       <div class="container clearfix">
 
         <div class="logo">
-          <a class="logo__link" href="index.php">
+          <a class="logo__link" id="logo_link"href="index.php">
             <img class="logo__img" src="images/logo.png" alt="Avenue fashion logotype" width="150" height="10">
           </a>
         </div>

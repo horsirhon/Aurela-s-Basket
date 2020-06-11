@@ -94,7 +94,7 @@ $order_status = "Paid";
 
 <th><?php echo $i; ?></th>
 
-<td>$<?php echo $due_amount; ?></td>
+<td> &#8358 <?php echo $due_amount; ?></td>
 
 <td><?php echo $invoice_no; ?></td>
 
@@ -121,5 +121,4 @@ $order_status = "Paid";
 </table><!-- table table-bordered table-hover Ends -->
 
 </div><!-- table-responsive Ends -->
-
 
