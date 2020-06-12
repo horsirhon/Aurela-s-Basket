@@ -341,7 +341,7 @@ CREATE TABLE `products` (
 --
 
 INSERT INTO `products` (`product_id`, `p_cat_id`, `cat_id`, `manufacturer_id`, `date`, `product_title`, `product_url`, `product_img1`, `product_img2`, `product_img3`, `product_price`, `product_psp_price`, `product_desc`, `product_features`, `product_video`, `product_keywords`, `product_label`, `status`) VALUES
-(1, 4, 2, 2, '2070-02-15 10:48:40', 'English Breakfast Tray', 'product-url-1', 'img1.jpg', 'img2.jpg', 'img3.jpg',65000, 65000, '<p> Crepes or Pancake or Waffles
+(1, 4, 2, 2, '2070-02-15 10:48:40', 'English Breakfast Tray', 'english-product-url', 'img1.jpg', 'img2.jpg', 'img3.jpg',65000, 65000, '<p> Crepes or Pancake or Waffles
 																	<br />
 
 																	Cereal or Pastry Bowl with Butter/Jam
@@ -396,7 +396,7 @@ INSERT INTO `products` (`product_id`, `p_cat_id`, `cat_id`, `manufacturer_id`, `
 																	A Box of Chocolate
 																	A Box of Tea
 </p>' , '<p>Breakfast Tray</p> ' , '', 'Breakfast', 'Gifts', 'product'),
-(2, 4, 2, 2, '2017-02-15 10:48:48', 'Nigerian Breakfast Tray(With Grilled Fish)', 'product-url-2', 'img4.jpg', 'img5.jpg', 'img6.jpg',95000, 95000, '<p> Yam(Boiled or Fried)
+(2, 4, 2, 2, '2017-02-15 10:48:48', 'Nigerian Breakfast Tray With Grilled Fish', 'nigerian-product-url-1', 'img4.jpg', 'img5.jpg', 'img6.jpg',95000, 95000, '<p> Yam(Boiled or Fried)
 															<br />
 
 															Plantain(Boiled or Fried)
@@ -454,7 +454,7 @@ INSERT INTO `products` (`product_id`, `p_cat_id`, `cat_id`, `manufacturer_id`, `
 
 															A Box of Chocolate
 ' , '<p>Breakfast Tray</p>', '', 'Breakfast', 'Gift', 'product'),
-(3, 4, 2, 2, '2017-02-15 10:48:52', 'Nigerian Breakfast Tray(Without Grilled Fish)', 'product-url-3', 'img4.jpg', 'img5.jpg', 'img6.jpg', 80000,80000, '<p> Yam(Boiled or Fried)
+(3, 4, 2, 2, '2017-02-15 10:48:52', 'Nigerian Breakfast Tray Without Grilled Fish ', 'nigerian-product-url-2', 'img4.jpg', 'img5.jpg', 'img6.jpg', 80000,80000, '<p> Yam(Boiled or Fried)
 														<br />
 
 														Plantain(Boiled or Fried)
@@ -516,7 +516,7 @@ INSERT INTO `products` (`product_id`, `p_cat_id`, `cat_id`, `manufacturer_id`, `
 
 														Grilled Fish
 </p>' , '<p>Breakfast Tray</p>', '', 'Breakfast', 'Gift', 'product'),
-(4, 5, 2, 2, '2017-02-19 06:49:39', 'Champagne Breakfast Tray', 'product-url-4', 'img7.jpg', 'img8.jpg', 'img9.jpg', 85000,85000, 'Crepes or Pancake or Waffles
+(4, 5, 2, 2, '2017-02-19 06:49:39', 'Champagne Breakfast Tray', 'champagne-product-url', 'img7.jpg', 'img8.jpg', 'img9.jpg', 85000,85000, 'Crepes or Pancake or Waffles
 												<br />
 
 												Cereal or Pastry Bowl with Butter/Jam
@@ -570,7 +570,7 @@ INSERT INTO `products` (`product_id`, `p_cat_id`, `cat_id`, `manufacturer_id`, `
 
 												A Box of Chocolate
 												A Medium Sized Champagne Bottle', '<p>Breakfast Tray</p>', '', 'Breakfast', 'Gift', 'product'),
-(5, 4, 2, 2, '2017-02-19 06:45:07', 'Keto Breakfast Tray', 'product-url-5', 'img10.jpg', 'img11.jpg', 'img12.jpg', 90000,90000, ' Stuffed Chicken
+(5, 4, 2, 2, '2017-02-19 06:45:07', 'Keto Breakfast Tray', 'keto-product-url', 'img10.jpg', 'img11.jpg', 'img12.jpg', 90000,90000, ' Stuffed Chicken
 												<br />
 
 												Jumbo Prawns
@@ -615,7 +615,7 @@ INSERT INTO `products` (`product_id`, `p_cat_id`, `cat_id`, `manufacturer_id`, `
 												<br />
 
 												A Box of Chocolate','<p>Breakfast Tray</p>','', 'Breakfast', 'Gift', 'Product'),
-(6, 4, 2, 2, '2020-02-19 06:49:18', 'Asian Breakfast Tray', 'product-url-6', 'img13.jpg', 'img14.jpg', 'img15.jpg', 100000,100000, '<p> Asian Rice
+(6, 4, 2, 2, '2020-02-19 06:49:18', 'Asian Breakfast Tray', 'asian-product-url', 'img13.jpg', 'img14.jpg', 'img15.jpg', 100000,100000, '<p> Asian Rice
 
 												<br />
 
@@ -669,7 +669,7 @@ INSERT INTO `products` (`product_id`, `p_cat_id`, `cat_id`, `manufacturer_id`, `
 												<br />
 
 												A Box of Chocolate' , '<p>Breakfast Tray</p>', '', 'Breakfast', 'Gift', 'product'),
-(7, 4, 2, 2, '2020-02-19 06:49:18', 'Vegan Breakfast Tray', 'product-url-6', 'img20.jpg', 'img16.jpg', 'img17.jpg', 95000,95000, '<p> Vegetable Pasta(Asparagus,Coloured Pepper,Broccoli)
+(7, 4, 2, 2, '2020-02-19 06:49:18', 'Vegan Breakfast Tray', 'vegan-product-url', 'img20.jpg', 'img16.jpg', 'img17.jpg', 95000,95000, '<p> Vegetable Pasta(Asparagus,Coloured Pepper,Broccoli)
                                             <br /> Avocado Salad(Avocado,Cherry,Tomatoes Sweet Corn)
 
                                             <br /> Vegan Tomatoe Sauce Roasted Irish Potatoe
@@ -689,7 +689,7 @@ INSERT INTO `products` (`product_id`, `p_cat_id`, `cat_id`, `manufacturer_id`, `
                                             <br /> A Bottle of Fresh Juice
 
                                             <br /> A Bottle of Water</p>' , '<p>Breakfast Tray</p>', '', 'Breakfast', 'Gift', 'product'),
-(8, 5, 2, 2, '2020-02-19 06:49:18', 'Benachin Lunch Tray', 'product-url-6', 'img17.jpg', 'img18.jpg', 'img19.jpg', 85000,85000, '<p> Jollof Rice(Benachin)
+(8, 5, 2, 2, '2020-02-19 06:49:18', 'Benachin Lunch Tray', 'benachin-product-url-1', 'img17.jpg', 'img18.jpg', 'img19.jpg', 85000,85000, '<p> Jollof Rice(Benachin)
                                                 <br /> Grilled Chicken
 
                                                 <br /> Fried Plantain Jumbo Prawns in Pepper Sauce
@@ -711,7 +711,7 @@ INSERT INTO `products` (`product_id`, `p_cat_id`, `cat_id`, `manufacturer_id`, `
                                                 <br /> A Bottle of Water
 
                                                 <br /> A Box Of Chocolate</p>' , '<p>Lunch Tray</p>', '', 'Breakfast', 'Gift', 'product'),
-(9, 5, 2, 2, '2020-02-19 06:49:18', 'Benachin Lunch Tray(With Champagne)', 'product-url-6', 'img17.jpg', 'img18.jpg', 'img19.jpg', 100000,100000, '<p> Jollof Rice(Benachin)
+(9, 5, 2, 2, '2020-02-19 06:49:18', 'Benachin Lunch Tray(With Champagne)', 'benachin-product-url-2', 'img17.jpg', 'img18.jpg', 'img19.jpg', 100000,100000, '<p> Jollof Rice(Benachin)
                                                 <br /> Grilled Chicken
 
                                                 <br /> Fried Plantain Jumbo Prawns in Pepper Sauce
@@ -735,7 +735,7 @@ INSERT INTO `products` (`product_id`, `p_cat_id`, `cat_id`, `manufacturer_id`, `
                                                 <br /> A Box Of Chocolate
 
                                                 <br /> Bottle of Champagne </p> ' , '<p>Lunch Tray</p>', '', 'Lunch', 'Gift', 'product'),
-(10, 5, 2, 2, '2020-02-19 06:49:18', 'Surf N Turf Lunch Tray', 'product-url-6', 'img20.jpg', 'img14.jpg', 'img15.jpg', 95000,95000, '<p> Shrimp Fried Rice
+(10, 5, 2, 2, '2020-02-19 06:49:18', 'Surf N Turf Lunch Tray', 'surfnturf-product-url', 'img20.jpg', 'img14.jpg', 'img15.jpg', 95000,95000, '<p> Shrimp Fried Rice
                                             <br /> Grilled Chicken
 
                                             <br /> Pasta Minced Meat Sauce
@@ -754,7 +754,7 @@ INSERT INTO `products` (`product_id`, `p_cat_id`, `cat_id`, `manufacturer_id`, `
 
                                             <br /> A Bottle of Water
 
-                                            <br /> A Box Of Chocolate </p>' , '<p>Lunch Tray</p>', '', 'Lunch', 'Gift', 'product'),                                       (10, 5, 2, 2, '2020-02-19 06:49:18', 'Sea Delight Lunch Tray', 'product-url-6', 'img18.jpg', 'img6.jpg', 'img15.jpg', 95000,95000, '<p> Salmon Fish
+                                            <br /> A Box Of Chocolate </p>' , '<p>Lunch Tray</p>', '', 'Lunch', 'Gift', 'product'),                                       (10, 5, 2, 2, '2020-02-19 06:49:18', 'Sea Delight Lunch Tray', 'seadelight-product-url', 'img18.jpg', 'img6.jpg', 'img15.jpg', 95000,95000, '<p> Salmon Fish
                                             <br /> Shrimp Salad
 
                                             <br /> Honey Glazed Carrot and Asparagus with Lemon Calamari
@@ -823,9 +823,9 @@ CREATE TABLE `store` (
 --
 
 INSERT INTO `store` (`store_id`, `store_title`, `store_image`, `store_desc`, `store_button`, `store_url`) VALUES
-(4, 'Gallery', 'store (3).jpg', 'Aurelias Moments', 'View', 'instagram.com/aureliasbaskets'),
-(5, 'Gallery', 'store (1).jpg', 'Aurelias Moments', 'View', 'instagram.com/aureliasbaskets'),
-(6, 'Gallery', 'store (2).jpg', 'Aurelias Moments', 'View', 'instagram.com/aureliasbaskets');
+(4, '', 'store (3).jpg', '', 'View', 'http://instagram.com/aureliasbaskets'),
+(5, '', 'store (1).jpg', '', 'View', 'http://instagram.com/aureliasbaskets'),
+(6, '', 'store (2).jpg', '', 'View', 'http://instagram.com/aureliasbaskets');
 
 -- --------------------------------------------------------
 
