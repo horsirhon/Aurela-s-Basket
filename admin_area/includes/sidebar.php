@@ -224,7 +224,7 @@ else {
 
 <a href="#" data-toggle="collapse" data-target="#manufacturers"><!-- anchor Starts -->
 
-<i class="fa fa-fw fa-briefcase"></i> Manufacturers
+<i class="fa fa-fw fa-briefcase"></i> Trays
 
 <i class="fa fa-fw fa-caret-down"></i>
 

@@ -94,7 +94,7 @@ Hide
 
 <div class="input-group"><!-- input-group Starts -->
 
-<input type="text" class="form-control" id="dev-table-filter" data-action="filter" data-filters="#dev-manufacturer" placeholder="Filter Manufacturers">
+<input type="text" class="form-control" id="dev-table-filter" data-action="filter" data-filters="#dev-manufacturer" placeholder="Filter Trays">
 
 
 <a class="input-group-addon"> <i class="fa fa-search"></i> </a>

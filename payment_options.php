@@ -12,9 +12,6 @@ $row_customer = mysqli_fetch_array($run_customer);
 
 $customer_id = $row_customer['customer_id'];
 
-$pro_price = $row_cart['p_price'];
-$product_title = $row_products['product_title'];
-$pro_qty = $row_cart['qty'];
 ?>
 
 <h1 class="text-center">Payment Options For You</h1>
@@ -37,13 +34,6 @@ $ip_add = getRealUserIp();
 $get_cart = "select * from cart where ip_add='$ip_add'";
 
 $run_cart = mysqli_query($con,$get_cart);
-$pro_id = "";
-
-$pro_qty = "";
-
-$pro_price = "";
-
-$product_title = "";
 
 while($row_cart = mysqli_fetch_array($run_cart)){
 
@@ -63,7 +53,8 @@ $product_title = $row_products['product_title'];
 
 $i++;
 
-?>
+ } ?>
+
 <h1 class="text-center">Pay Now</h1>
 
 <form class="Pay-btn">
@@ -71,9 +62,6 @@ $i++;
 
 <script type="text/javascript" src="https://api.ravepay.co/flwv3-pug/getpaidx/api/flwpbf-inline.js"></script>
   </form>
-
-
-<?php } ?>
 
 
 
